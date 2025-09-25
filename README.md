@@ -1,3 +1,130 @@
+# Hybrid AI/ML Models for Quantum Technologies
+
+**Author:** Shashank Prabhakar  
+**Project:** Major Project – B.Tech  
+**Based on Paper:** *“Artificial Intelligence and Machine Learning for Quantum Technologies”* by Mario Krenn et al.
+
+---
+
+## 💖 Project Overview
+
+This project explores the intersection of **Artificial Intelligence (AI), Machine Learning (ML), and Quantum Technologies**. The primary goal is to **leverage advanced ML models to classify and analyze quantum states**, with a focus on entanglement detection and scalable quantum system simulation.
+
+The work implements a **hybrid Neural Network–SVM architecture** capable of handling **high-dimensional quantum data**, demonstrating efficient and robust quantum state classification.
+
+---
+
+## 🛠️ Key Features
+
+- **Hybrid Neural Network–SVM Model:**
+  - Neural Network extracts deep features from quantum state representations.
+  - Linear SVM classifier performs final discrimination between entangled and separable states.
+  - Kernel approximation techniques (RBF Sampler/Nystroem) applied for scalability in high-dimensional spaces.
+
+- **Large-scale Quantum Dataset Handling:**
+  - Built pipeline for **Quantum1 Kaggle dataset (1M+ samples)**.
+  - Efficient preprocessing and embedding generation.
+
+- **End-to-End Pipeline:**
+  - Data preprocessing → Feature extraction → Model training → Evaluation.
+  - Demonstrates hybrid deep learning–kernel architectures for quantum information processing.
+
+---
+
+## 🔧 Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/quantum-ai-ml.git
+cd quantum-ai-ml
+```
+
+2. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## 🧠 Usage
+
+1. Prepare the dataset:
+```bash
+python data_preprocessing.py
+```
+
+2. Train the hybrid model:
+```bash
+python train_model.py
+```
+
+3. Evaluate model performance:
+```bash
+python evaluate_model.py
+```
+
+4. For visualization of results:
+```bash
+python visualize_results.py
+```
+
+---
+
+## 📊 Results
+
+- Achieved high accuracy in **entanglement classification**.
+- Hybrid NN–SVM outperforms baseline models in **large-scale quantum datasets**.
+- Kernel approximation enables **efficient handling of high-dimensional quantum embeddings**.
+
+---
+
+## 🔬 Technologies Used
+
+- **Programming:** Python
+- **ML Frameworks:** PyTorch, Scikit-learn
+- **Data Handling:** Pandas, Numpy
+- **Visualization:** Matplotlib, Seaborn
+- **Quantum Simulation Tools:** Qiskit (optional, if used)
+
+---
+
+## 📂 Repository Structure
+
+```
+quantum-ai-ml/
+│
+├── data/                  # Raw and processed quantum datasets
+├── models/                # NN, SVM, and hybrid model code
+├── notebooks/             # Jupyter notebooks for experiments
+├── scripts/               # Data preprocessing, training, evaluation scripts
+├── requirements.txt       # Python dependencies
+├── README.md
+```
+
+---
+
+## 📙 References
+
+- Krenn, M. et al., *Artificial Intelligence and Machine Learning for Quantum Technologies*
+- Kaggle Quantum1 Dataset
+
+---
+
+## 💡 Future Work
+
+- Integrate **reinforcement learning** for adaptive quantum control.
+- Explore **other hybrid architectures** like NN + Random Forest/SVM ensembles.
+- Apply model to **real quantum devices** for experimental verification.
+
+---
+
+## 🔗 Contact
+
+For questions or collaboration:  
+**Email:** [shashhh.nk@gmail.com]
+
+
+
 ## Artificial Intelligence and Machine Learning For Quantum Technologies
 by **[Mario Krenn](https://mpl.mpg.de/research-at-mpl/independent-research-groups/krenn-research-group/), Jonas Landgraf, Thomas Foesel, [Florian Marquardt](https://mpl.mpg.de/divisions/marquardt-division)**\
 Perspective Paper: [arXiv:2208.03836 (2022)](https://arxiv.org/abs/2208.03836)\
